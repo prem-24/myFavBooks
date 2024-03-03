@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f1fada; /* Light green background */
+  color: #265073; /* Dark blue text */
+}
+
+.container {
+  background-color: #9ad0c2; /* Light blue container background */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+h1 {
+  color: #2d9596;
+  font-weight: 700 !important;
+  /* Teal heading */
+}
+
+.form-control {
+  background-color: #f1fada; /* Light green form control background */
+  border-color: #2d9596; /* Teal form control border */
+  color: #265073; /* Dark blue text */
+}
+
+.form-control:focus {
+  border-color: #265073; /* Dark blue focus border */
+  box-shadow: 0 0 0 0.25rem rgba(219, 220, 220, 0.25); /* Focus shadow */
+}
+
+.btn-dark {
+  background-color: #265073; /* Dark blue button background */
+  border-color: #265073; /* Dark blue button border */
+}
+
+.btn-dark:hover {
+  background-color: #265073; /* Dark blue hover background */
+  border-color: #265073; /* Dark blue hover border */
+}
+
+.table {
+  /* background-color: #677c77; */
+  border: 1px solid white; /* Light blue table background */
+}
+
+.table th,
+.table td {
+  font-weight: 200px !important;
+  color: #265073;
+  /* Dark blue table text */
+}
+
+.thhead {
+  background-color: #9ad0c2 !important;
+  border-bottom: 2px solid white !important;
+  border-top: 2px solid white !important;
+}
